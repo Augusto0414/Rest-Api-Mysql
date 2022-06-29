@@ -8,5 +8,5 @@ app.set("port", process.env.PORT || 4200);
 
 //Midelwares 
 app.use(morgan('dev')); // muestra los request (peticiones) en consola 
-app.use(languageRoute);
+app.use("api/languages",languageRoute);
 export default app;

@@ -4,6 +4,6 @@ import { method as language } from "../controller/language.controller";
 
 const router = Router();
 
-router.get('/',language.getLanguage);
+router.get('/', language.getLanguage);
 
 export default router;
